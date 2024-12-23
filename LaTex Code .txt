@@ -1,0 +1,277 @@
+\documentclass[xcolor={dvipsnames}]{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{enumerate items}[default]
+\setbeamercolor*{structure}{bg=white,fg=black}
+
+
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\insertsection
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+      \usebeamerfont{title in head/foot}\insertsubsection
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+      \usebeamerfont{date in head/foot}\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+    \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+
+
+
+
+%-----------------------------Title page-----------------------------------
+\title {Modeling E-Learning Assisted Distance Education System for 
+Bangladesh}
+
+\subtitle{Facing the challanges}
+
+\author[M. Mozammel Hoque Chowdhury, Amina Khatun] % (optional)
+{M. Mozammel Hoque Chowdhury\inst{1} \and Amina Khatun\inst{2}}
+
+\institute[Department of Computer Science and Engineering, Jahangirnagar Universtity, Bangladesh 
+mozammel_ju@yahoo.com,amina_basher@yahoo.com] % (optional)
+{
+  \inst{1}%
+  Department of Computer Science and Engineering, Jahangirnagar University, Bangladesh 
+mozammel_ju@yahoo.com,amina_basher@yahoo.com
+  
+}
+
+
+\date[2013] % (optional)
+{International Journal of Advanced Science and Technology, 
+Vol. 56, July, 2013}
+
+
+
+
+%------------------------------------------------------------
+%The next block of commands puts the table of contents at the 
+%beginning of each section and highlights the current section:
+
+
+
+
+%--------------------------------Abstract--------------------------------
+\begin{document}
+
+
+
+\frame{\titlepage}
+\begin{frame} \frametitle{Abstract} The goal is to propose a model for E-learning-assisted distance education in Bangladesh, addressing challenges and improving infrastructure for quality education.
+\begin{itemize}
+    \item Distance education
+    \item E-Learning
+    \item Benefits of DE and EL
+    \item Challenges in DE
+\end{itemize}
+\end{frame}
+
+
+
+
+
+
+%----------------------------------Bio------------------------------------
+\begin{frame} \frametitle{Bio} 
+\begin{itemize}
+    \item Shazidul Alam
+    \item Department of CSE
+    \item Notre Dame University Bangladesh
+    \item ID: 09
+    \item Batch: CSE- 19
+\end{itemize}
+\end{frame}
+
+
+
+
+
+%-------------------------------Introduction------------------------------
+\begin{frame} \frametitle{Introduction} Education comes in two main forms: 
+\begin{itemize}
+    \item DE
+    \item SIE
+\end{itemize}
+Platforms;
+\begin{itemize}
+    \item DE - Digital
+    \item SIE - Traditional
+\end{itemize}
+ \end{frame}
+
+
+ %----------------------Types of Technologies in DE------------------------
+
+\begin{frame} \frametitle{Types of Technologies in DE} 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Technology.jpg}
+  
+    \label{fig:enter-label}
+\end{figure}
+There are 2 types of technologies in DE:
+
+\begin{itemize}
+    \item Synchronous (Real-time) 
+    \item Asynchronous (Different times)
+\end{itemize}
+ 
+  \end{frame}
+
+
+
+%---------------E-Learning and Distance Education Model------------------
+\begin{frame} \frametitle{E-Learning and Distance Education Model} 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{Pic.png}
+    \label{fig:enter-label}
+\end{figure}
+\end{frame}
+
+
+
+
+
+%-------------Benefits of E-Learning Assisted Distance Education-----------
+\begin{frame} \frametitle{Benefits of E-Learning Assisted Distance Education } 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{table 3.jpeg}
+    
+    \label{fig:enter-label}
+\end{figure}
+\begin{itemize}
+    \item Strong academic skills
+    \item Better thinking 
+    \item Reasoning 
+    \item Teamwork skills
+    \item Proficiency in using technology 
+\end{itemize}
+\end{frame}
+
+
+
+
+%----------------------------Methodology----------------------------------
+\begin{frame} \frametitle{Methodology } 
+
+\begin{itemize}
+    \item Study on the past and ongoing projects reports on distance education 
+    \item Mass people's expectations towards distance education 
+    \item Focus group discussions 
+    \item Development of an effective model for implementing the distance-learning system
+   \end{itemize}
+
+ \end{frame}
+
+
+
+
+
+
+ %----------Challenges of E-Learning assisted Distance Education-----------
+ \begin{frame} \frametitle{Challenges of E-Learning assisted Distance Education } 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Challenges.jpg}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{itemize}
+\item 1. Inadequate ICT Infrastructure and Planning
+ \item 2. Lack of Awareness Among Government Officials
+\item 3. Lack of Proper Training Programs
+\item 4. Inadequate Human Resource Capacity
+\item 5. High-Cost, Low-Reliability Internet Access
+\item 6. Lack of Regulatory/Legal Framework
+\item 7. Affordability Issues
+\end{itemize}
+
+ \end{frame}
+
+
+
+
+
+
+
+
+%-----------------------Solution to the Challenges------------------------
+ \begin{frame} \frametitle{Solution to the Challenges}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Solution.jpg}
+    \label{fig:enter-label}
+\end{figure}
+ 
+\begin{itemize}
+ \item 1. ICT Infrastructure and Planning
+ \item 2. Awareness Among Government Officials
+ \item 3. Proper Training Programs
+ \item 4. Human Resource Capacity
+ \item 5. Low-Cost, High-Reliability Internet Access
+ \item 6. Regulatory/Legal Framework
+ \item 7. Affordability
+\end{itemize}
+ \end{frame}
+
+
+
+
+
+
+
+%------------------------------Conclusion-----------------------------------
+ \begin{frame} \frametitle{Conclusion} 
+ \begin{itemize}
+    
+    \item E-learning in Distance Education expands access, particularly in rural Bangladesh. It's a cost-effective solution, that benefits those facing travel challenges. This approach fosters a skilled workforce, improving the country's economy.
+    \item Distance Education, especially E-learning, aids girls in rural areas, in overcoming barriers like early marriages. To succeed, the government must invest in telecommunication infrastructure. While progress has been made, addressing challenges will enhance the impact of e-learning, contributing to societal progress.
+    
+    \end{itemize}
+
+
+
+\end{frame}
+
+
+
+
+
+
+
+%-------------------------------References---------------------------------
+ \begin{frame} \frametitle{References } 
+ \begin{itemize}
+ \scriptsize{
+ \item 1. C. P. Fulford and S. Zhang, “Perceptions of interaction: The critical predictor in distance education”, The 
+American Journal of Distance Education, vol. 7, pp. 8-21, (1993).
+ \item 2. S. Das, L. N. Sharma and A. K. Gogol, “ICT Infrastructures in Indian Villages”, 7th International Conference 
+on Computer and Information Technology, Dhaka, Bangladesh, (2004) December 26-28. 
+ \item 3. E. Charron and K. Obbink, “Long distance learning: Continuing your education through 
+telecommunications”, The Science Teacher, March, (1993), pp. 56-60. 
+ \item 4. J. C. Taylor, “The Fifth Generation of Distance Education”, Translation in the Chinese Journal of Open 
+Education Research, vol. 3, (2003), pp. 25-27. 
+ \item 5. R. D. Garrison, “An analysis and evaluation of audio teleconferencing to facilitate education at a distance”, 
+The American J. of Distance Education, vol. 4, pp. 13-24, (1990).  
+ \item 6. A. Nagy, “The Impact of E-Learning”, E-Content: Technologies and Perspectives for the European Market. 
+Berlin: Springer-Verlag, pp. 79-96, (2005). 
+ \item 7. J. D. Lever and J. B. McDonald, “Teaching and Learning with Technology”, Pearson Education, Inc., (2008).
+ \item 8. B. L. Kurtz, D. Parks and E. Nicholson, “Effective Internet education: a progress report”, ACM SIGCSE 
+Bulletin, Proceedings of the 33rd SIGCSE technical symposium on Computer Science Education, pp. 34-41, 
+(2002). 
+ }
+\end{itemize}
+\end{frame}
+
+
+\end{document}
